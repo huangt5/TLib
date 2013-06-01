@@ -40,6 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task\BasicTask\BaseTask.cs" />
+    <Compile Include="Task\BasicTask\GenericTask.cs" />
+    <Compile Include="Task\BasicTask\MultiTasks.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
