@@ -2,3 +2,6 @@
 /TLib.Core/obj
 
 *.suo
+
+/TLib.Winform/obj
+/TLib.Winform/bin
