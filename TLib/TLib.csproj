@@ -31,11 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,11 +53,22 @@
     <Compile Include="Core\Task\BasicTask\GenericTask.cs" />
     <Compile Include="Core\Task\BasicTask\MultiTasks.cs" />
     <Compile Include="Core\ObjectUtil\PrimitiveCloner.cs" />
-    <Compile Include="Web\MVC\ExtentionMethods.cs" />
+    <Compile Include="Web\Mvc\ExtentionMethods.cs" />
+    <Compile Include="Winform\PropertyGridEx\BrowsableTypeConverter.cs" />
+    <Compile Include="Winform\PropertyGridEx\CustomChoices.cs" />
+    <Compile Include="Winform\PropertyGridEx\CustomColorScheme.cs" />
+    <Compile Include="Winform\PropertyGridEx\CustomProperty.cs" />
+    <Compile Include="Winform\PropertyGridEx\CustomPropertyCollection.cs" />
+    <Compile Include="Winform\PropertyGridEx\CustomPropertyCollectionSet.cs" />
+    <Compile Include="Winform\PropertyGridEx\PropertyGridEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\PropertyGridEx\PropertyGridEx.designer.cs" />
+    <Compile Include="Winform\PropertyGridEx\UICustomEventEditor.cs" />
+    <Compile Include="Winform\PropertyGridEx\UIFilenameEditor.cs" />
+    <Compile Include="Winform\PropertyGridEx\UIListboxEditor.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Winform\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
