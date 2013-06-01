@@ -2,7 +2,7 @@
 
 namespace TLib.Core.Task.BasicTask
 {
-    class MultiTasks : BaseTask
+    public class MultiTasks : BaseTask
     {
         List<BaseTask>  _subActions = new List<BaseTask>();
 

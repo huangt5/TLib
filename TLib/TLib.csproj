@@ -32,6 +32,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,10 +47,10 @@
     <Compile Include="Core\Task\BasicTask\GenericTask.cs" />
     <Compile Include="Core\Task\BasicTask\MultiTasks.cs" />
     <Compile Include="Core\ObjectUtil\PrimitiveCloner.cs" />
+    <Compile Include="Web\MVC\ExtentionMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\Text\" />
-    <Folder Include="Web\" />
     <Folder Include="Winform\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

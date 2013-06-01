@@ -6,7 +6,7 @@ namespace TLib.Core.Task.BasicTask
     /// <summary>
     /// Basic task support synchronized and asynchronized start.
     /// </summary>
-    abstract class BaseTask
+    public abstract class BaseTask
     {
         public void Start()
         {

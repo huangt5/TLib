@@ -2,7 +2,7 @@
 
 namespace TLib.Core.Task.BasicTask
 {
-    class GenericTask : BaseTask
+    public class GenericTask : BaseTask
     {
         private Action _action;
 
