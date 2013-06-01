@@ -50,16 +50,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TLib.Core\TLib.Core.csproj">
-      <Project>{737c94b7-3816-4567-a318-a12cc2478fcd}</Project>
-      <Name>TLib.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TLib.Winform\TLib.Winform.csproj">
-      <Project>{cd8e8850-4628-4768-869f-1f1db1452ecb}</Project>
-      <Name>TLib.Winform</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Core\" />
     <Folder Include="Winform\" />
   </ItemGroup>

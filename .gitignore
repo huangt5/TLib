@@ -1,11 +1,7 @@
-/TLib.Core/bin
-/TLib.Core/obj
-
 *.suo
 
-/TLib.Winform/bin
-/TLib.Winform/obj
-
+/TLib/bin
+/TLib/obj
 /TLib.Sample/bin
 /TLib.Sample/obj
 
