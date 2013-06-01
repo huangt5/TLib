@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Script.Serialization;
 
-namespace TLib.Web.MVC
+namespace TLib.Web.Mvc
 {
     public static class ExtentionMethods
     {
