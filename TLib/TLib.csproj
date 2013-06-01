@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Text\StringExtensions.cs" />
+    <Compile Include="Core\Xml\LinqToXml\XAttributeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Core\Task\BasicTask\BaseTask.cs" />
     <Compile Include="Core\Task\BasicTask\GenericTask.cs" />
@@ -51,7 +53,6 @@
     <Compile Include="Web\MVC\ExtentionMethods.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Core\Text\" />
     <Folder Include="Winform\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

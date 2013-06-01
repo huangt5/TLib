@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Task\BasicTaskSample.cs" />
+    <Compile Include="Core\Text\StringExtensionsSample.cs" />
+    <Compile Include="Core\Xml\LinqToXmlSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
